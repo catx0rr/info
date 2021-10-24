@@ -1,3 +1,7 @@
+/* ------ */
+#id-card.hidden { display: none; }
+/* ------ */
+
 body {
     margin: 0;
     padding: 0;
@@ -46,12 +50,14 @@ section.about {
 
 section.home, section.about {
     width: 50%;
-    box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 1.0);
+    /* simple box */
+    /*box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 1.0);*/
 }
 
 #card {
     width: 50%;
-    box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 1.0);
+    /* simple box */
+    /*box-shadow: 0 12px 12px -12px rgba(0, 0, 0, 1.0); */
 }
 
 #card div.outer {
@@ -161,6 +167,11 @@ section.home, section.about {
 #card div.inner-box {
     margin: 0 5%;
     padding: 1% 2% 4%;
+}
+
+/* skills */
+#card div.inner-box-skills {
+    margin: 0 4%;
 }
 
 #card h2.header {
